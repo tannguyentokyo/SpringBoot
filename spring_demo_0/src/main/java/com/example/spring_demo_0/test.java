@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class test {
 	@RequestMapping("/a")
 	public int tinhTong() {
-		return 1+2+2+5;
+		return 1+2+2+5+5;
 	}
 }
